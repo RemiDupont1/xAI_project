@@ -5,7 +5,7 @@
       "src": "main.py",
       "use": "@vercel/python",
       "config": {
-        "server": "uvicorn main:app --reload"
+        "server": "python main.py"
       }
     }
   ],
